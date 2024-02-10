@@ -1,0 +1,18 @@
+input_file: input_data.txt
+output_file_name: output_data
+num_isotopes: 3
+max_groups: 6
+max_time: 5
+iterations: 2000
+time_constant: 0.001
+initial_reactivity: 0.1
+reactivity_change: 0.0
+reactivity_units: Nile
+
+Notes:
+Make sure that properties 6,7,8 are real values as integer values will
+give inaccurate results.
+Dollar and Nile units for reactivity are the only units currently
+accepted. Case sensitive.
+Although not used in the program currently reactivity change is a
+variable that could be used later for the purposes of a variable reactivity.
